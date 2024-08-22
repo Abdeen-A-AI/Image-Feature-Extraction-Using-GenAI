@@ -18,3 +18,18 @@ This project implements an advanced generative AI pipeline for extracting and ra
 - Model: Fine-tuned Mistral-v3
 - Input: Text description from Florence-2
 - Output: JSON object containing extracted features and their scores
+
+## Usage
+
+To run this project, follow these steps:
+
+1. Download the dataset
+2. Run the image scraping script:
+ ```
+ python scrapeImages.py
+ ```
+This will scrape images from Airbnb based on the dataset.
+
+3. Open and run the `GenAI_Approach.ipynb` Jupyter notebook. Follow the instructions within the notebook to process the images and extract features.
+
+**Important note:** Ensure you use the same file and directory names as specified in the scripts, or modify the paths in the code to match your directory structure.
